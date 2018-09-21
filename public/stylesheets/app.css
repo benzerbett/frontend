@@ -6530,10 +6530,14 @@ a {
   .modal-new .modal-dialog {
     margin: 20px 10px; } }
 
+.showcase-page-header .certified-tick {
+  top: 10px; }
+
 .certified-tick {
   display: inline-block;
+  cursor: pointer;
   position: relative;
-  bottom: 20px;
+  top: -12px;
   min-width: 85px;
   left: 10px; }
   .certified-tick p {
@@ -7565,7 +7569,8 @@ body.search, body.validate {
     body.search .search-page .results .square h3, body.validate .search-page .results .square h3 {
       color: #000;
       margin-bottom: 10px;
-      margin-top: 0px; }
+      margin-top: 0px;
+      display: inline; }
     body.search .search-page .results .square p, body.validate .search-page .results .square p {
       color: #313131;
       margin-top: 10px; }

@@ -260,10 +260,17 @@ a {
   }
   
 }
+
+.showcase-page-header {
+  .certified-tick {
+    top:10px;
+  }
+}
 .certified-tick{
   display: inline-block;
+  cursor: pointer;
   position:relative;
-  bottom:20px;
+  top:-12px;
   min-width: 85px;
   left:10px;
   p { 
